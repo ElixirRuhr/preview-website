@@ -14,4 +14,5 @@ daemon: build
 	docker run -d --name ${NAME} ${NAME}
 
 push: build
-	docker push splattael/${NAME}
+	docker tag -f ${NAME} splattael/${NAME} && \
+		docker push splattael/${NAME}
