@@ -1,9 +1,9 @@
-raw.githack.com [![](https://img.shields.io/badge/license-WTFPL-green.svg?style=flat-square)](http://www.wtfpl.net/)
-===============
+# http://*.preview.elixir.ruhr
 
-This is the source code behind [raw.githack.com](https://raw.githack.com).
+Preview service for http://elixir.ruhr.
 
-The  idea  of this  service  is  inspired from  [rawgit.com](http://rawgit.com)
-(formerly rawgithub.com). I just realized that using a whole framework (node.js
-with express.js) for such simple thing as requests proxying is overkilling, and
-made same stuff using nginx only.
+Scheme: `<SHA>.preview.elixir.ruhr`
+
+Example:
+  * http://gh-pages.preview.elixir.ruhr
+  * http://c4e58eb2.preview.elixir.ruhr
