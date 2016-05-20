@@ -18,6 +18,14 @@ Example:
 
     $ make test
 
+You have to tweak `/etc/hosts` in order to test pull requests locally:
+
+```
+127.0.0.1 gh-pages.preview.dev
+127.0.0.1 gh-pages-pr-5.preview.dev
+...
+```
+
 ### Push image to docker registry (splattael/preview-website)
 
     $ make push
