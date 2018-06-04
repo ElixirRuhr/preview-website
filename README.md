@@ -26,6 +26,8 @@ You have to tweak `/etc/hosts` in order to test pull requests locally:
 ...
 ```
 
-### Push image to docker registry (splattael/preview-website)
+### Publish image
 
-    $ make push
+Wait build to finish on Docker Hub.
+
+See https://hub.docker.com/r/splattael/preview-website/builds/.
